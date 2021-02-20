@@ -136,6 +136,15 @@ window.__require = function e(t, n, r) {
         this.spawnNewRound();
         this.shots = 0;
         this.progress.fillRange = 0;
+        this.node.on("touchstart", function(event) {
+          var a = event.touch.getLocationX();
+          a <= 480 && (this.leftrotate = true);
+          a > 480 && (this.rightrotate = true);
+        }, this);
+        this.node.on("touchend", function(event) {
+          this.leftrotate = false;
+          this.rightrotate = false;
+        }, this);
       };
       NewClass.prototype.spawnNewRound = function() {
         var n = Math.ceil(5 * Math.random() + 4);
@@ -169,7 +178,9 @@ window.__require = function e(t, n, r) {
         return cc.v2(randX, randY);
       };
       NewClass.prototype.start = function() {};
-      NewClass.prototype.update = function(dt) {};
+      NewClass.prototype.update = function(dt) {
+        true == this.leftrotate ? this.player.angle += 10 * dt : true == this.rightrotate && (this.player.angle -= 10 * dt);
+      };
       __decorate([ property(cc.Label) ], NewClass.prototype, "label", void 0);
       __decorate([ property(cc.Prefab) ], NewClass.prototype, "roundPrefab", void 0);
       __decorate([ property(cc.Node) ], NewClass.prototype, "background", void 0);
