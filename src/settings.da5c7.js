@@ -24,12 +24,12 @@ window._CCSettings = {
     hasStartSceneBundle: false,
     remoteBundles: [],
     subpackages: [],
-    launchScene: "db://assets/Scene/game.fire",
+    launchScene: "db://assets/Scene/shoot.fire",
     orientation: "",
     debug: true,
     jsList: [],
     bundleVers: {
         internal: "202c4",
-        main: "e82d2"
+        main: "2e100"
     }
 };

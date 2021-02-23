@@ -21,6 +21,7 @@
         "a0Nc60vDNGeILTGFJTpPnm",
         "b3DIB8yfhA1b07rEeXtIC3",
         "b4P/PCArtIdIH38t6mlw8Y",
+        "c2ZNNqoFhApoAUt5AFcsoU",
         "d0nVsAt5dHT626Nm1hyfno",
         "ddBM+mk+9CdaPLpeew4GjD",
         "deqXdt4GBOcb1BgDgu7ipL",
@@ -30,10 +31,11 @@
         "ecpdLyjvZBwrvm+cedCcQy",
         "ee5m8SEfVINbftOxP7lB0h",
         "f0BIwQ8D5Ml7nTNQbh1YlS",
-        "f3RsKY5DFEloHZ535/9P/k"
+        "f3RsKY5DFEloHZ535/9P/k",
+        "f4tXUmiE9LPqmywUOJrLLl"
     ],
     "scenes": {
-        "db://assets/Scene/game.fire": "2dL3kvpAxJu6GJ7RdqJG5J"
+        "db://assets/Scene/shoot.fire": "2dL3kvpAxJu6GJ7RdqJG5J"
     },
     "redirect": [
         "ecpdLyjvZBwrvm+cedCcQy",
@@ -43,19 +45,7 @@
         "internal"
     ],
     "packs": {
-        "0382786af": [
-            "02fmoS50NPzaYzl1QwH+c5",
-            "304Ky5NdJEsKRSixTg+wQh",
-            "35erzkEGhDLogmz0bIRfzb",
-            "71VhFCTINJM6/Ky3oX9nBT",
-            "a0Nc60vDNGeILTGFJTpPnm",
-            "b4P/PCArtIdIH38t6mlw8Y",
-            "d0nVsAt5dHT626Nm1hyfno",
-            "ddBM+mk+9CdaPLpeew4GjD",
-            "e4SgB244FI4ZHAyOLNvt/b",
-            "e8Ueib+qJEhL6mXAHdnwbi"
-        ],
-        "066e79f44": [
+        "02ccf9c00": [
             "0eaPcM11VFKqPi94GVxXO4",
             "10HLa7jCJK+oU1xhjlP32m",
             "13BMP83kVG6YKIZOdRtPoX",
@@ -74,7 +64,21 @@
             "e97GVMl6JHh5Ml5qEDdSGa",
             "ee5m8SEfVINbftOxP7lB0h",
             "f0BIwQ8D5Ml7nTNQbh1YlS",
-            "f3RsKY5DFEloHZ535/9P/k"
+            "f3RsKY5DFEloHZ535/9P/k",
+            "f4tXUmiE9LPqmywUOJrLLl"
+        ],
+        "03ac735bc": [
+            "02fmoS50NPzaYzl1QwH+c5",
+            "304Ky5NdJEsKRSixTg+wQh",
+            "35erzkEGhDLogmz0bIRfzb",
+            "71VhFCTINJM6/Ky3oX9nBT",
+            "a0Nc60vDNGeILTGFJTpPnm",
+            "b4P/PCArtIdIH38t6mlw8Y",
+            "c2ZNNqoFhApoAUt5AFcsoU",
+            "d0nVsAt5dHT626Nm1hyfno",
+            "ddBM+mk+9CdaPLpeew4GjD",
+            "e4SgB244FI4ZHAyOLNvt/b",
+            "e8Ueib+qJEhL6mXAHdnwbi"
         ]
     },
     "name": "main",
@@ -85,10 +89,10 @@
     "encrypted": false,
     "versions": {
         "import": [
-            "0382786af",
-            "d8969",
-            "066e79f44",
-            "8bc8a"
+            "02ccf9c00",
+            "f1adf",
+            "03ac735bc",
+            "178a6"
         ],
         "native": [
             "02fmoS50NPzaYzl1QwH+c5",
@@ -111,6 +115,8 @@
             "9ace8",
             "b4P/PCArtIdIH38t6mlw8Y",
             "83fcc",
+            "c2ZNNqoFhApoAUt5AFcsoU",
+            "e8980",
             "d0nVsAt5dHT626Nm1hyfno",
             "af369",
             "ddBM+mk+9CdaPLpeew4GjD",

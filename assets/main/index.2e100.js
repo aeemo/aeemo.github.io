@@ -26,6 +26,62 @@ window.__require = function e(t, n, r) {
   for (var o = 0; o < r.length; o++) s(r[o]);
   return s;
 }({
+  Start: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "87f0eMkS9BKuIyjhu2mNCdw", "Start");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) b.hasOwnProperty(p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var NewClass = function(_super) {
+      __extends(NewClass, _super);
+      function NewClass() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this.label = null;
+        _this.text = "hello";
+        return _this;
+      }
+      NewClass.prototype.loadmyScene = function() {
+        cc.director.loadScene("game");
+        cc.loader.load("db://assets/Scene/a.fire", function(sceneAsset) {
+          cc.director.runScene(sceneAsset);
+        });
+      };
+      NewClass.prototype.onLoad = function() {};
+      NewClass.prototype.start = function() {};
+      __decorate([ property(cc.Label) ], NewClass.prototype, "label", void 0);
+      __decorate([ property ], NewClass.prototype, "text", void 0);
+      NewClass = __decorate([ ccclass ], NewClass);
+      return NewClass;
+    }(cc.Component);
+    exports.default = NewClass;
+    cc._RF.pop();
+  }, {} ],
   fire: [ function(require, module, exports) {
     "use strict";
     cc._RF.push(module, "ef2daxmwHxASaKIUnF1rSqg", "fire");
@@ -380,5 +436,5 @@ window.__require = function e(t, n, r) {
     exports.default = NewClass;
     cc._RF.pop();
   }, {} ]
-}, {}, [ "fire", "game", "player", "round" ]);
+}, {}, [ "Start", "fire", "game", "player", "round" ]);
 //# sourceMappingURL=index.js.map
